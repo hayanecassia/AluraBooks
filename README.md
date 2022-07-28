@@ -1,5 +1,6 @@
 # AluraBooks
-<p align="center">Página do e-commerce AluraBooks.</p>
+Página do e-commerce AluraBooks.
+Confira o resultado clicando [aqui](https://hayanecassia.github.io/AluraBooks/)
 <hr>
 
 ## Tecnologias
