@@ -1,0 +1,71 @@
+.contato {
+    background: var(--branco);
+    padding: 1em 1em;
+}
+
+.titulo, .titulo__descricao {
+    background: var(--azul-gradiente);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.titulo {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.titulo__descricao {
+    font-weight: 300;
+    line-height: 24px;
+    margin: 1em 0;
+}
+
+.botao__email {
+    background: transparent;
+    color: var(--azul);
+    border: 1px solid var(--azul);
+    border-radius: 24px;
+    padding: 1em ;
+    width: 93%;
+}
+
+.botao__email::placeholder {
+    background: url("/img/Msg.svg") no-repeat;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    color: var(--azul);
+    padding-left: 2em;
+}
+
+/*Responsividade do site*/
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato__descricao {
+        margin-right: 3em;
+        width: 30%;
+    }
+
+    .botao__email {
+        width: 30%;
+    }
+
+    .titulo {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width:1728px) {
+    .contato {
+        padding: 3em 20vw;
+    }
+
+}
